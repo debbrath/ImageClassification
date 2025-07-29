@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🧥 Fashion MNIST Classifier</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f0f4ff, #ffffff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .form-box, .image-box {
+            flex: 1;
+            margin: 0 15px;
+        }
+
+        .logo {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #4B0082;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px dashed #4B0082;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #4B0082;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5e2ea3;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .prediction-box {
+            margin-top: 25px;
+        }
+
+        .prediction-box h2 {
+            color: #333;
+        }
+
+        .confidence {
+            margin: 10px 0;
+            padding: 8px;
+            border-radius: 8px;
+            background: #f2f2ff;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <img src="https://img.icons8.com/external-flat-juicy-fish/60/external-fashion-art-and-design-flat-flat-juicy-fish.png" class="logo" alt="Fashion Icon">
+            <h1>Fashion MNIST Classifier</h1>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="image" id="imageInput" accept="image/*" required onchange="previewImage(event)">
+                <br>
+                <button type="submit">Predict</button>
+            </form>
+
+            {% if prediction %}
+                <div class="prediction-box">
+                    <h2>Prediction: {{ prediction[0] }}</h2>
+                    <div class="confidence">1. {{ prediction[0] }} — {{ prediction[1] }}%</div>
+                    <div class="confidence">2. {{ prediction[2] }} — {{ prediction[3] }}%</div>
+                    <div class="confidence">3. {{ prediction[4] }} — {{ prediction[5] }}%</div>
+                    <div class="confidence">3. {{ prediction[6] }} — {{ prediction[7] }}%</div>
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="image-box">
+            {% if image_data %}
+                <img id="preview" src="data:image/png;base64,{{ image_data }}" alt="Image Preview" />
+            {% else %}
+                <img id="preview" src="#" alt="Image Preview" style="display: none;" />
+            {% endif %}
+        </div>
+    </div>
+
+
+    <script>
+        function previewImage(event) {
+            const reader = new FileReader();
+            reader.onload = function () {
+                const output = document.getElementById('preview');
+                output.src = reader.result;
+                output.style.display = "block";
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+</body>
+</html>
