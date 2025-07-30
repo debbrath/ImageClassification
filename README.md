@@ -62,6 +62,27 @@ Open your browser: http://127.0.0.1:5000
 │   └── index.html          # Stylish HTML UI
 ```
 
+mage-Classification-AI/
+│
+├── Image/                      # Folder for example images or datasets
+│
+├── __pycache__/               # Python cache files (auto-generated)
+│
+├── data/
+│   └── FashionMNIST/
+│       └── raw/               # Raw dataset files (FashionMNIST dataset)
+│
+├── templates/                 # Templates for web app or reports (if any)
+│
+├── README.md                  # Project description and documentation
+│
+├── app.py                    # Main application script (e.g., for running or serving the model)
+│
+├── best_cnn_model.pt          # Saved trained CNN model weights
+│
+├── cnn_model.py 
+
+
 🛠 Tech Stack
 
     Python
