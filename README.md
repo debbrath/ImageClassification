@@ -55,12 +55,6 @@ Open your browser: http://127.0.0.1:5000
 
 📁 Project Structure
 
-```├── app.py                  # Flask backend
-├── best_cnn_model.keras    # Trained CNN model (add yours here)
-├── requirements.txt
-├── templates/
-│   └── index.html          # Stylish HTML UI
-```
 ```Image-Classification-AI/
 │
 ├── Image/                      # Folder for example images or datasets
