@@ -55,11 +55,25 @@ Open your browser: http://127.0.0.1:5000
 
 📁 Project Structure
 
-```├── app.py                  # Flask backend
-├── best_cnn_model.keras    # Trained CNN model (add yours here)
-├── requirements.txt
-├── templates/
-│   └── index.html          # Stylish HTML UI
+```Image-Classification-AI/
+│
+├── Image/                      # Folder for example images or datasets
+│
+├── __pycache__/               # Python cache files (auto-generated)
+│
+├── data/
+│   └── FashionMNIST/
+│       └── raw/               # Raw dataset files (FashionMNIST dataset)
+│
+├── templates/                 # Templates for web app or reports (if any)
+│
+├── README.md                  # Project description and documentation
+│
+├── app.py                    # Main application script (e.g., for running or serving the model)
+│
+├── best_cnn_model.pt          # Saved trained CNN model weights
+│
+├── cnn_model.py 
 ```
 
 🛠 Tech Stack
@@ -79,10 +93,14 @@ Open your browser: http://127.0.0.1:5000
     SciPy (for center-of-mass preprocessing)
 
 📸 Screenshots
-![Screenshot](Image/2025-07-30 14_27_19-Window.png)
-![Screenshot](Image/2025-07-30 14_25_37-Window.png)
-![Screenshot](Image/2025-07-30 14_27_41-Window.png)
-![Screenshot](Image/2025-07-30 14_28_25-Window.png)
+
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_37-Window.png)
+
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_27_19-Window.png)
+
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_27_41-Window.png)
+
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_28_25-Window.png)
 
 ✍️ Author
 
