@@ -81,8 +81,11 @@ Open your browser: http://127.0.0.1:5000
 📸 Screenshots
 
 ![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_37-Window.png)
+
 ![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_19-Window.png)
+
 ![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_41-Window.png)
+
 ![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_25-Window.png)
 
 ✍️ Author
