@@ -79,6 +79,7 @@ Open your browser: http://127.0.0.1:5000
     SciPy (for center-of-mass preprocessing)
 
 📸 Screenshots
+
 ![Screenshot](/Image/2025-07-30 14_27_19-Window.png)
 ![Screenshot](Image/2025-07-30 14_25_37-Window.png)
 ![Screenshot](Image/2025-07-30 14_27_41-Window.png)
