@@ -79,16 +79,16 @@ Open your browser: http://127.0.0.1:5000
     SciPy (for center-of-mass preprocessing)
 
 📸 Screenshots
-![Screenshot](https://github.com/mahisalman/Fashion_MNIST_Classifier/blob/main/Screenshot_2.png)
-![Screenshot](https://github.com/mahisalman/Fashion_MNIST_Classifier/blob/main/Screenshot_4.png)
-![Screenshot](https://github.com/mahisalman/Fashion_MNIST_Classifier/blob/main/Screenshot_5.png)
-![Screenshot](https://github.com/mahisalman/Fashion_MNIST_Classifier/blob/main/Screenshot_6.png)
+![Screenshot](Image/2025-07-30 14_27_19-Window.png)
+![Screenshot](Image/2025-07-30 14_25_37-Window.png)
+![Screenshot](Image/2025-07-30 14_27_41-Window.png)
+![Screenshot](Image/2025-07-30 14_28_25-Window.png)
 
 ✍️ Author
 
-Mahi Salman
+Debbrath Debnath
 
-📫 [Connect on LinkedIn](https://www.linkedin.com/in/mahisalman/)
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/debbrathdebnath/)
 
-🌐 [GitHub Profile](https://github.com/mahisalman)
+🌐 [GitHub Profile](https://github.com/debbrath)
 
