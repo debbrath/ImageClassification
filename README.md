@@ -82,11 +82,11 @@ Open your browser: http://127.0.0.1:5000
 
 ![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_25_37-Window.png)
 
-![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30 14_27_19-Window.png)
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_27_19-Window.png)
 
-![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30 14_27_41-Window.png)
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_27_41-Window.png)
 
-![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30 14_28_25-Window.png)
+![Screenshot](https://github.com/debbrath/ImageClassification/blob/main/Image/2025-07-30%2014_28_25-Window.png)
 
 ✍️ Author
 
