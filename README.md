@@ -61,8 +61,7 @@ Open your browser: http://127.0.0.1:5000
 ├── templates/
 │   └── index.html          # Stylish HTML UI
 ```
-'''
-mage-Classification-AI/
+```Image-Classification-AI/
 │
 ├── Image/                      # Folder for example images or datasets
 │
@@ -81,7 +80,7 @@ mage-Classification-AI/
 ├── best_cnn_model.pt          # Saved trained CNN model weights
 │
 ├── cnn_model.py 
-'''
+```
 
 🛠 Tech Stack
 
